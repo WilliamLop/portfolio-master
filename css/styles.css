@@ -1,0 +1,125 @@
+
+
+:root{
+    --grayLight: #F2F2F2;   
+    --gray3: #828282;
+    --icons: #4F4F4F;
+    --white: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--grayLight);
+    line-height: 1.6;
+    font-size: .9em;
+    color: var(--gray3);
+}
+
+.main{
+    margin: 2rem auto;
+}
+
+.main__container{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    max-width: 790px;
+}
+
+
+.main__content{
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: .5rem;
+    filter: drop-shadow(2px 2px 4px #eee);  
+}
+
+.header__home{
+    text-align: center;
+}
+.grid-1{
+    display: grid;
+    gap: 1rem;
+}
+
+.date__title{
+    color: var(--icons);
+    font-weight: 500;
+}
+.contact__text{
+    color: var(--icons);
+}
+
+
+.perfil__img{
+    border-radius: 50%;
+    width: 180px;
+    height: 165px;
+    border: 2px solid #eeee;
+    object-fit: cover;
+}
+
+.skills__grid{
+    background-color: var(--white);
+    border-radius: .5rem;
+    filter: drop-shadow(2px 2px 4px #eee);  
+}
+.habilidades{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.habilidad__name{
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.habilidades__title{
+    color: var(--icons);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.progress__bar{
+    width: 100%;
+    height: 7px;
+    background-color: #C4C4C4;
+    border-radius: 1rem;
+}
+
+.progress{
+    background-color: #028eca;
+    width: 80%;
+    height: 100%;
+}
+
+@media (min-width: 48rem){
+
+    .main__content{
+        padding: 1.5rem;
+    }
+
+    .header__home{
+        grid-template-columns: 200px 1fr;
+        align-items: center;
+        text-align: start;
+    }
+
+    .perfil__info{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
