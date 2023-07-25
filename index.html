@@ -9,6 +9,8 @@
     <title>Portafolio</title>
     <script src="https://kit.fontawesome.com/766c25c2d0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   </head>
   <body>
 
@@ -48,7 +50,7 @@
           </header>
         </div>
 
-        <div class="skills__grid">
+        <div class="skills__grid grid-1">
             <section class="habilidades grid-1">
               <h3 class="habilidades__title">Front End</h3>
 
@@ -83,12 +85,332 @@
                 </div>
               </article>
             </section>
+
+            <div class="blog__container">
+              <!-- Blog -->
+              <span class="blog__text">Blog</span>
+    
+              <div class="blog__content grid-1">
+                <div class="blog__content--visual grid-1">
+                  <h2 class="blog__title">How to organize your CSS</h2>
+                  <img src="images/webDesign.jpg" alt="" class="web-design-img">
+                </div>
+    
+                <div class="blog__info grid-1">
+                  <p class="blog__paragraph">
+                    In this article I tell the story about Proin eu justo sit amet lacus bibedum tincidunt.
+                    Vivamus non volutpat nisl, a luctus mi.
+                  </p>
+                  <p class="blog__paragraph">
+                    Donec aliqueam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
+                  </p>
+                </div>
+                <a href="" class="dev-to">dev.to</a>
+              </div>
+    
+            </div>
+
+            <section class="hobbies__container">
+                <h2 class="hobbies__title">Hobbies</h2>
+                <div class="hobbies__content">
+                  <article class="article__hobbie">
+                    <img src="images/gaming.jpg" alt="" class="img-responsive">
+                    <div class="hobbie__info">
+                      <h4 class="hobbie__subtitle">Gaming</h4>
+                      <p class="hobbie__paragraph">Quisque feugiat malesuada molestie</p>
+                    </div>
+                  </article>
+                  <article class="article__hobbie">
+                    <img src="images/cooking.jpg" alt="" class="img-responsive">
+                    <div class="hobbie__info">
+                      <h4 class="hobbie__subtitle">Cooking</h4>
+                      <p class="hobbie__paragraph">Quisque feugiat malesuada molestie</p>
+                    </div>
+                  </article>
+                  <article class="article__hobbie">
+                    <img src="images/biking.jpg" alt="" class="img-responsive">
+                    <div class="hobbie__info">
+                      <h4 class="hobbie__subtitle">Biking</h4>
+                      <p class="hobbie__paragraph">Quisque feugiat malesuada molestie</p>
+                    </div>
+                  </article>
+                </div>
+            </section>
+
+            <section class="experience__container">
+              <h2 class="experience__title">Experiences</h2>
+
+              <div class="experience__container--jobs grid-2">
+                <article class="experience__content">
+                  <img src="images/adidas.png" alt="">
+                  <div class="experience__info grid-1">
+                    <div class="experience-subinfo">
+                      <span class="experience__subtitle">Feb 2020 - Current</span>
+                      <h4 class="experience__name">Front-end developer</h4>
+                    </div>
+                    <p class="experience__paragraph">
+                      Donec aliquam est dui, vel vestibulum diam solicitud id. Quisqueque feugiat malesuada molestie.
+                    </p>
+                  </div>
+                  
+                </article>
+                <article class="experience__content">
+                  <img src="images/nike.png" alt="">
+                  <div class="experience__info grid-1">
+                    <div class="experience-subinfo">
+                      <span class="experience__subtitle">Aug 2022 - Current</span>
+                      <h4 class="experience__name">Front-end developer</h4>
+                    </div>
+                    <p class="experience__paragraph">
+                      Donec aliquam est dui, vel vestibulum diam solicitud id. Quisqueque feugiat malesuada molestie.
+                    </p>
+                  </div>
+                  
+                </article>
+              </div>
+            </section>
+
+        </div>      
+        <div class="projects__nav grid-point5">
+          <h4 class="projects__title">Projects (2)</h4>
+          <div class="projects__btns">
+            <a href="" class="projects__link projects__link--active">HTML & CSS</a>
+            <a href="" class="projects__link">JS</a>
+            <!-- <a href="" class="projects__link">React</a> -->
+          </div>
         </div>
-      
       </div>
+      <div class="projects__container">
+
+        <div class="projects__content">
+          <div class="project__card project__card--show">
+            <!-- Swiper -->
+            <div class="swiper my-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/inteiorweb.png" alt="" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#Responsive</p>
+                    </div>
+                    <h3 class="herr__title">Modern interior</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML and CSS to create a responsive page. This page is similar with a page. The design is from devchallenge.io</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/interior-consultant-master/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/interior-consultant-master.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/landingWebHubbo.png" alt="" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#Responsive</p>
+                    </div>
+                    <h3 class="herr__title">Huddle web</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML and CSS to create a responsive page. This page is similar with a page. The design is from devchallenge.io</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/huddle-landing-page-with-single-introductory-section-master/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/huddle-landing-page-with-single-introductory-section-master.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/chatappweb.png" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#Responsive</p>
+                    </div>
+                    <h3 class="herr__title">Chat app</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML and CSS to create a responsive page. This page is similar with a page. The design is from devchallenge.io</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/chat-app-css-illustration-master/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/chat-app-css-illustration-master.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/gridtestimonial.png" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#Responsive</p>
+                    </div>
+                    <h3 class="herr__title">Grid testimonial web</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML and CSS to create a responsive page. This page is similar with a page. The design is from devchallenge.io</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/testimonials-grid-section-main/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/testimonials-grid-section-main.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/landingWeb404.png" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#Responsive</p>
+                    </div>
+                    <h3 class="herr__title">Error 404 web</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML and CSS to create a responsive page. This page is similar with a page. The design is from devchallenge.io</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/404-not-found-master/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/404-not-found-master.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/featureSection.png" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#Responsive</p>
+                    </div>
+                    <h3 class="herr__title">Feacture section</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML and CSS to create a responsive page. This page is similar with a page. The design is from devchallenge.io</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/four-card-feature-section-master/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/four-card-feature-section-master.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>  
+
+
+          <div class="project__card ">
+            <!-- Swiper -->
+            <div class="swiper my-swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/crowweb.jpg" alt="" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#JS</p>
+                      <p class="text__herramienta">#Mobile</p>
+                    </div>
+                    <h3 class="herr__title">Crowdfunding</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML, CSS and JavaScript to create a responsive page. This page is similar with a page</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/crowdfunding-product-page-main/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/crowdfunding-product-page-main.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/manageWeb.jpg" alt="" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#JS</p>
+                      <p class="text__herramienta">#Mobile</p>
+                    </div>
+                    <h3 class="herr__title">Manage-landing</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML, CSS and JavaScript to create a responsive page. This page is similar with a page</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/manage-landing-page-master/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/manage-landing-page-master.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/fylodark.jpg" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#JS</p>
+                      <p class="text__herramienta">#Mobile</p>
+                    </div>
+                    <h3 class="herr__title">Fylo-Dark</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML, CSS and JavaScript to create a responsive page. This page is similar with a page</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/fylo-dark-theme-landing-page-master/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/fylo-dark-theme-landing-page-master.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/faqAccordion.jpg" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#JS</p>
+                      <p class="text__herramienta">#Mobile</p>
+                    </div>
+                    <h3 class="herr__title">Faq Accordion</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML, CSS and JavaScript to create a responsive page. This page is similar with a page</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/faq-accordion-card-main/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/faq-accordion-card-main.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/interactiveRating.jpg" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#JS</p>
+                      <p class="text__herramienta">#Mobile</p>
+                    </div>
+                    <h3 class="herr__title">interactive rating</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML, CSS and JavaScript to create a responsive page. This page is similar with a page</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/interactive-rating-component-main/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/interactive-rating-component-main.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__content">
+                    <img src="images/baseapparel.jpg" class="project-img">
+                    <div class="herramientas">
+                      <p class="text__herramienta">#HTML</p>
+                      <p class="text__herramienta">#CSS</p>
+                      <p class="text__herramienta">#JS</p>
+                      <p class="text__herramienta">#Mobile</p>
+                    </div>
+                    <h3 class="herr__title">Base Apparel</h3>
+                    <p class="herr__paragraph">In this project, I work with HTML, CSS and JavaScript to create a responsive page. This page is similar with a page</p>
+                    <div class="btns__view">
+                      <a href="https://williamlop.github.io/base-apparel-coming-soon-master/" target="_blank" class="btn__view">Demo</a>
+                      <a href="https://github.com/WilliamLop/base-apparel-coming-soon-master.git" target="_blank" class= "btn-code">Code</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-pagination2"></div>
+          </div>  
+
+        </div>
+
+        
+    </div>
     </main>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <!-- Swiper JS -->
+    
   </body>
 </html>
